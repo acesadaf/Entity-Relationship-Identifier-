@@ -12,6 +12,7 @@ We perform the following in order to generate various features
 * FrameNet Features
 * VerbNet Features
 
+![Feature Engineering](./Results.png)
 
 This project is written in Python. I will describe the libraries and files needed, and describe how to run
 the project, here. 
