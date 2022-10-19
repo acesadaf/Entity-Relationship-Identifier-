@@ -1,5 +1,5 @@
 # Entity-Relationship-Identifier
-A deep Natural Language Processing pipeline which successfully classifies the relationship between two marked entities. This relationship is a two-part identity: first, we must classify the nature of the relationship between the entities, and then we must classify the direction of that relationship. This Readme will briefly go over the features used, the libraries necessary to run this, and results.
+A deep Natural Language Processing pipeline which successfully classifies the relationship between two marked entities. This relationship is a two-part identity: first, we must classify the nature of the relationship between the entities, and then we must classify the direction of that relationship. To clarify "direction", suppose we have two entities e1 and e2, who are related by the Component-Whole relation. The directiction of the relationship will identify whether e1 is a component of e2 (the whole) or vice versa. This Readme will briefly go over the features used, the libraries necessary to run this, and results.
 
 ## Feature Engineering 
 
@@ -67,8 +67,12 @@ Please let me know if you run into any issues when running the project!
 
 ## Results
 
-The results for this pipeline are shown below. We say that a prediction is "correct" if both the nature of the relationship as well as it's direction are classified correctly.
+The results for this pipeline are shown below. 
+
+In the first table, we say that a prediction is "correct" if both the nature of the relationship as well as it's direction are classified correctly.
 
 ![Results](./Results.png)
+
+In the second table, we show the precision, recall and F1 score when we are concerned with only classifying the nature of the relationship.
 ![Results Per Relation](./Results-Per-Relation.png)
 
