@@ -1,12 +1,22 @@
 # Entity-Relationship-Identifier
-A deep Natural Language Processing pipeline which successfully classifies the relationship between two marked entities. This relationship is a two-part identity: first, we must classify the nature of the relationship between the entities, and then we must classify the direction of that relationship.
+A deep Natural Language Processing pipeline which successfully classifies the relationship between two marked entities. This relationship is a two-part identity: first, we must classify the nature of the relationship between the entities, and then we must classify the direction of that relationship. This Readme will briefly go over the features used, the libraries necessary to run this, and results.
 
+## Feature Engineering 
+
+We perform the following in order to generate various features 
+* Tokenization and Lemmatization
+* Part of Speech tagging
+* Dependency Parse
+* Word Sense Disambiguation (WSD)
+* WordNet Features
+* FrameNet Features
+* VerbNet Features
 
 
 This project is written in Python. I will describe the libraries and files needed, and describe how to run
 the project, here. 
 
-## Libraries
+## Required Libraries
 You will need the following Python libraries for this project to work normally:
 * Gensim
 * NLTK
