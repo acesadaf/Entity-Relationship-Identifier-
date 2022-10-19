@@ -56,8 +56,8 @@ present, so if you run them first you will get errors. The first program you sho
 main_verbnet.py. This will create all the necessary models, and it takes about an hour and half
 to train the SVM and store it. Once the file has executed at least once and the models are
 created, you can then use demo.py to play around with input sentences that you type in, or use
-tester.py to test on the whole semeval test file (which must be present for it to work). Testing
-on the whole dataset takes about 1316 seconds, as mentioned in the report.
+tester.py to test on the whole semeval test file (which must be present for it to work). 
+
 main_verbnet.py, demo.py and tester.py are the main files here. All the other files work as
 helpers: CorpusReader reads the files and stores them in memory in a data structure, the
 processor files process the data and extract features, the Embedder_vn.py file contains the
