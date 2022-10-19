@@ -12,7 +12,7 @@ We perform the following in order to generate various features
 * FrameNet Features
 * VerbNet Features
 
-![Feature Engineering](./Results.png)
+![Feature Engineering](./Feature-Engineering.png)
 
 This project is written in Python. I will describe the libraries and files needed, and describe how to run
 the project, here. 
@@ -64,3 +64,9 @@ processor files process the data and extract features, the Embedder_vn.py file c
 code for creating the word embeddings via genism.
 
 Please let me know if you run into any issues when running the project!
+
+## Results
+
+![Results](./Results.png)
+![Results Per Relation](./Results-Per-Relation.png)
+
