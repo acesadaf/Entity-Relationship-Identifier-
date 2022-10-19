@@ -4,11 +4,12 @@ A deep Natural Language Processing pipeline which successfully classifies the re
 
 
 This project is written in Python. I will describe the libraries and files needed, and describe how to run
-the project, here. The report is in a separate file called “Project Report”.
-Libraries
+the project, here. 
+
+##Libraries
 You will need the following Python libraries for this project to work normally:
-• Gensim
-• NLTK
+*Gensim
+*NLTK
 • SpaCy
 • Networkx
 • Scikit-Learn
@@ -18,11 +19,14 @@ Furthermore, you will need the following WordNet corpora:
 • WordNet
 • FrameNet
 • VerbNet
+
+##Corpora
 To download the corpora, simply do the following in a terminal (I have used FrameNet as an example, it
 is similar for the others):
 Import nltk
 nltk.download(‘framenet_v17’)
-Files
+
+##Files
 The following files are necessary for the project (they should all be in the same folder):
 • demo.py
 • tester.py
