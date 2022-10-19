@@ -1,6 +1,8 @@
 # Entity-Relationship-Identifier-
 a deep Natural Language Processing pipeline which successfully classifies the relationship between two marked entities. This relationship is a two-part identity: first, we must classify the nature of the relationship between the entities, and then we must classify the direction of that relationship.
-README
+
+
+
 This project is written in Python. I will describe the libraries and files needed, and describe how to run
 the project, here. The report is in a separate file called “Project Report”.
 Libraries
