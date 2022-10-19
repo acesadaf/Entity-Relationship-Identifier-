@@ -8,8 +8,8 @@ the project, here.
 
 ##Libraries
 You will need the following Python libraries for this project to work normally:
-*Gensim
-*NLTK
+* Gensim
+* NLTK
 • SpaCy
 • Networkx
 • Scikit-Learn
