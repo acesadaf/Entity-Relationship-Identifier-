@@ -67,6 +67,8 @@ Please let me know if you run into any issues when running the project!
 
 ## Results
 
+The results for this pipeline are shown below. We say that a prediction is "correct" if both the nature of the relationship as well as it's direction are classified correctly.
+
 ![Results](./Results.png)
 ![Results Per Relation](./Results-Per-Relation.png)
 
